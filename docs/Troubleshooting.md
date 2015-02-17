@@ -8,7 +8,7 @@ Table of Contents
 * [Where are the logs stored](#logs)
 * [I'm not receiving e-mails](#emails)
 
-##How to clear the cache and trigger an update<a name="clearcache"></a>
+<a name="clearcache"></a>##How to clear the cache and trigger an update
 
 If you believe there might be an issue with the cache, particularly when API keys seem to be having issues, clearing the cache is a safe troubleshooting method which can go a long way in diagnosing or even fixing the problem. 
 
@@ -24,7 +24,7 @@ You can then wait for SeAT to update the API keys, or you can trigger an update 
 $ php artisan seat:api-update
 ```
 
-##Where are the logs stored<a name="logs"></a>
+<a name="logs"></a>##Where are the logs stored
 
 SeAT logs lots of things, making the logs extremely useful for troubleshooting. The logs are stored in the following directory inside your SeAT install: 
 
@@ -40,6 +40,6 @@ SeAT rolls (archives) the logs at the end of every month; ensure you are looking
 
 If you are unsure what the logs mean, try and find the relevant part of the log and put it in ![Pastebin](http://pastebin.com/) and link this in the IRC channel so we can help you faster!
 
-##I'm not receiving e-mails<a name="emails"></a>
+<a name="emails"></a>##I'm not receiving e-mails
 
 If you have installed SeAT, but you are not receiving e-mails the most common culprit is that the e-mail settings are incorrect. Open the `.env.php` file located in the root of your SeAT install and verify your e-mail settings are correct. It is important to check what mail driver you are using (detailed in the install docs). 
