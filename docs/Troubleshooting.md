@@ -4,11 +4,11 @@ This guide aims to provide basic troubleshooting tips for SeAT for common proble
 
 Table of Contents
 
-* [How to clear the cache and trigger an update](#How to clear the cache and trigger an update)
-* [Where are the logs stored](#Where are the logs stored)
+* [How to clear the cache and trigger an update](#clearcache)
+* [Where are the logs stored](#logs)
 * [I'm not receiving e-mails](#emails)
 
-##How to clear the cache and trigger an update
+##How to clear the cache and trigger an update<a name="clearcache"></a>
 
 If you believe there might be an issue with the cache, particularly when API keys seem to be having issues, clearing the cache is a safe troubleshooting method which can go a long way in diagnosing or even fixing the problem. 
 
@@ -24,7 +24,7 @@ You can then wait for SeAT to update the API keys, or you can trigger an update 
 $ php artisan seat:api-update
 ```
 
-##Where are the logs stored
+##Where are the logs stored<a name="logs"></a>
 
 SeAT logs lots of things, making the logs extremely useful for troubleshooting. The logs are stored in the following directory inside your SeAT install: 
 
