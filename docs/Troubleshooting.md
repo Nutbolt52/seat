@@ -4,9 +4,9 @@ This guide aims to provide basic troubleshooting tips for SeAT for common proble
 
 Table of Contents
 
-* [How to clear the cache and trigger an update](##How to clear the cache and trigger an update)
-* [Where are the logs stored](##Where are the logs stored)
-* [I'm not receiving e-mails](##I'm not receiving e-mails)
+* [How to clear the cache and trigger an update](#How to clear the cache and trigger an update)
+* [Where are the logs stored](#Where are the logs stored)
+* [I'm not receiving e-mails](#I'm not receiving e-mails)
 
 ##How to clear the cache and trigger an update
 
