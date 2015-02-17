@@ -6,7 +6,7 @@ Table of Contents
 
 * [How to clear the cache and trigger an update](#How to clear the cache and trigger an update)
 * [Where are the logs stored](#Where are the logs stored)
-* [I'm not receiving e-mails](#I'm not receiving e-mails)
+* [I'm not receiving e-mails](#emails)
 
 ##How to clear the cache and trigger an update
 
@@ -40,6 +40,6 @@ SeAT rolls (archives) the logs at the end of every month; ensure you are looking
 
 If you are unsure what the logs mean, try and find the relevant part of the log and put it in ![Pastebin](http://pastebin.com/) and link this in the IRC channel so we can help you faster!
 
-##I'm not receiving e-mails
+##I'm not receiving e-mails<a name="emails"></a>
 
 If you have installed SeAT, but you are not receiving e-mails the most common culprit is that the e-mail settings are incorrect. Open the `.env.php` file located in the root of your SeAT install and verify your e-mail settings are correct. It is important to check what mail driver you are using (detailed in the install docs). 
